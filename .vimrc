@@ -20,13 +20,10 @@ Plugin 'yggdroot/indentLine'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'Shougo/neocomplete.vim'
 Plugin 'altercation/vim-colors-solarized'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-
-source ~/.vim/neocomplete.vim
 
 set expandtab     " Soft tabs all the things
 set tabstop=2     " 2 spaces is used almost everywhere now

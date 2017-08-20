@@ -32,8 +32,8 @@ set autoindent    " Well, obviously
 set smartindent   " As opposed to dumb indent
 
 set noautowrite
-" set number
-set relativenumber
+set number
+" set relativenumber
 set autoread      " Read changes from underlying file if it changes
 set showmode      " Showing current mode is helpful++
 set showcmd
@@ -50,13 +50,14 @@ set showbreak=↪   " Cooler linebreak
 set noswapfile    " It's 2014, GO AWAY FFS
 
 set esckeys       " Allow escape key in insert mode
-set cursorline    " Highlight the line we're on
+"set cursorline    " Highlight the line we're on
 set encoding=utf8 " Really, people still use ASCII
 set wildmenu      " visual autocomplete for command menu
 set foldenable    " enable folding
 set foldlevelstart=10 " open most fold level
 set foldnestmax=10 " 10 nested fold max
 set foldmethod=indent " fold based on indent level
+set clipboard=unnamedplus
 
 set backspace=indent,eol,start
 

@@ -1,3 +1,4 @@
+set encoding=utf-8
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
@@ -10,7 +11,6 @@ Plugin 'VundleVim/Vundle.vim'
 " Your stuff is going go here...
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
-Plugin 'derekwyatt/vim-scala'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
@@ -20,7 +20,7 @@ Plugin 'yggdroot/indentLine'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'altercation/vim-colors-solarized'
+Plugin 'tomasiser/vim-code-dark'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -165,4 +165,8 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+colorscheme codedark
+let g:airline_theme = 'codedark'
+let g:airline#extensions#tabline#enabled = 1
 

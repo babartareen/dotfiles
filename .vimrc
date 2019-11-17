@@ -170,3 +170,5 @@ colorscheme codedark
 let g:airline_theme = 'codedark'
 let g:airline#extensions#tabline#enabled = 1
 
+hi Normal guibg=NONE ctermbg=NONE
+
